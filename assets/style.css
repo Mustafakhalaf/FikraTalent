@@ -1,0 +1,167 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  height: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+header .logo-container img {
+  height: 70px;
+}
+
+header .user-menu img {
+  height: 35px;
+}
+
+header .user-menu {
+  display: flex;
+}
+
+header .username {
+  margin: 0px 10px;
+}
+
+header .username #UserName {
+  margin: 0px 10px;
+  font-size: 18px;
+  color: purple;
+}
+header .username #Profile {
+  margin: 0px 10px;
+  font-size: 12px;
+  color: gray;
+}
+body{
+    background-color: #F2F4F7;
+}
+
+section {
+  position: relative;
+  background-color: #F2F4F7;
+  height: calc(100vh - 100px);
+}
+.options{
+  padding: 30px 0px 0px 146px;
+}
+.options button{
+  height: 30px;
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border-style: none;
+  background-color: #632c75;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: lighter;
+  font-size: 12px;
+  transition: 1s;
+}
+.options button:hover{
+  background-color: #834098;
+  font-size: 14px;
+  transition: 1s;
+}
+/* top right buttom left*/
+.options button #icon i{
+  text-align: center;
+  margin: 5px 10px 7px 10px;
+  padding: 0px;
+  font-size: 15px;
+  color: white;
+}
+
+.options button #arrow i{
+  text-align: center;
+  margin: 5px 10px 7px 5px;
+  padding: 0px;
+  font-size: 15px;
+  color: white;
+}
+.cards{
+    display: flex;
+    padding: 30px 10% 30px 10%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+  width: 18%;
+  height: 250px;
+  text-align: center;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.card img{
+  height: 90px;
+  width: 90px;
+  margin-top: 35px;
+}
+
+.name{
+  margin: 20px 0px 6px 0px;
+  color: #5B99DD;
+}
+.title{
+  margin: 0px 0px 25px 0px;
+  color: #787983;
+}
+.card button {
+  background-color: #5B99DD;
+  border: none;
+  border-radius: 3px;
+  width: 80%;
+  color: #fff;
+  height: 30px;
+  font-size: 16px;
+}
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  height: 100px;
+  width: 1059px;
+  position: absolute;
+  left: 144px;
+  margin-bottom: 100px;
+}
+.footer h3{
+  color: #632c75;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+ul{
+  list-style: none;
+  display: inline;
+}
+li{
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 5px;
+  color: #33558B;
+  border-radius: 95px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li:hover{
+    background: #632c75;
+    color: white;
+    
+}
